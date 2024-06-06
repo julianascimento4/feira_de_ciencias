@@ -93,3 +93,8 @@ form button {
 form button:hover {
     background-color: #ff3399;
 }
+
+#violenceChart {
+    max-width: 600px;
+    margin: 0 auto;
+}
