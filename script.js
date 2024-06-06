@@ -10,7 +10,7 @@ function search() {
     alert(`Você pesquisou por: ${query}`);
 }
 
-// Dados fictícios de violência no Ceará para o gráfico
+// Dados de violência no Ceará para o gráfico
 const violenceData = {
     labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
     datasets: [{
@@ -34,4 +34,3 @@ const violenceChart = new Chart(ctx, {
         }
     }
 });
-;
