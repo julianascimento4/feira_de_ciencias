@@ -1,3 +1,5 @@
+/* Estilos existentes */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -30,6 +32,34 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    transition: color 0.3s ease; /* Adicionando transição de cor */
+}
+
+nav ul li a:hover {
+    color: #ff3399; /* Mudando a cor ao passar o mouse */
+}
+
+.search-bar {
+    margin-top: 10px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff3399;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #ff66b2;
 }
 
 main {
@@ -48,52 +78,7 @@ article {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-aside {
-    background-color: #ffe6f2;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-    background-color: #ff66b2;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin: 10px 0 5px;
-}
-
-form input, form textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ff66b2;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #ff66b2;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #ff3399;
-}
-
+/* Estilo para o gráfico */
 #violenceChart {
     max-width: 600px;
     margin: 0 auto;
